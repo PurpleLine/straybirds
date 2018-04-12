@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hjm.straybirds.BmobTestActivity">
+
+    <Button
+        android:id="@+id/activity_bmob_test_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="提交"/>
+
+    <Button
+        android:id="@+id/activity_bmob_test_bt1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="下载"
+        app:layout_constraintTop_toBottomOf="@id/activity_bmob_test_bt"/>
+
+    <Button
+        android:id="@+id/activity_bmob_test_bt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DEBUG"
+        app:layout_constraintTop_toBottomOf="@id/activity_bmob_test_bt1"/>
+
+</android.support.constraint.ConstraintLayout>

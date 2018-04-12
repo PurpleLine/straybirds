@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorGray">#7f7f7f</color>
+    <color name="colorGrayAlpha">#7f7f7f7f</color>
+    <color name="colorBlackAlpha">#7f000000</color>
+    <color name="colorWhiteAlpha">#7fffffff</color>
+
+    <color name="themeColor1">#8FADB3</color>
+    <color name="themeColor2">#77B7BF</color>
+    <color name="themeColor3">#A3C6CC</color>
+    <color name="themeColor3Alpha">#66A3C6CC</color>
+    <color name="themeColor4">#ACE1E3</color>
+    <color name="themeColor5">#E8FFFF</color>
+    <color name="themeColor5Alpha">#7FE8FFFF</color>
+
+    <color name="baseColor">@color/themeColor4</color>
+    <color name="backgroundColor">@color/themeColor5</color>
+    <color name="unSelectColor">@color/themeColor3</color>
+    <color name="selectColor">@color/themeColor2</color>
+    <color name="coverColor">@color/themeColor3Alpha</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/activity_edit_tb_menu_insert_picture"
+          android:title="插入图片"
+          app:showAsAction="ifRoom"
+        android:icon="@drawable/activity_edit_tb_insert_pic"/>
+
+    <item android:id="@+id/activity_edit_tb_menu_save_content"
+          android:title="保存"
+          app:showAsAction="ifRoom"
+        android:icon="@drawable/activity_edit_tb_save"/>
+
+</menu>

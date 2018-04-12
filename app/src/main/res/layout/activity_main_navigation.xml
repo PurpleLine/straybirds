@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="200dp"
+              android:background="@android:color/transparent"
+              android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/activity_main_nav_iv_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:src="@color/selectColor"
+        app:civ_border_color="@color/colorWhiteAlpha"
+        app:civ_border_width="2dp"/>
+
+    <TextView
+        android:id="@+id/activity_main_nav_tv_name"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="飞 鸟 日 记"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        android:textColor="@color/colorWhiteAlpha"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/activity_main_nav_tv_show"
+        android:textColor="@color/colorWhiteAlpha"
+        android:layout_marginTop="2dp"
+        android:layout_marginStart="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="天空没有留下飞鸟飞过的痕迹."/>
+</LinearLayout>

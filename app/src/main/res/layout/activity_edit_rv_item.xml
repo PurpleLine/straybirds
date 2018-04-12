@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/activity_edit_rv_item_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="centerCrop"/>
+
+    <EditText
+        android:theme="@style/Base.Widget.AppCompat.EditText"
+        android:id="@+id/activity_edit_rv_item_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/transparent"
+        android:textCursorDrawable="@drawable/edittext_cursor"
+        android:hint="此处可输入"
+        android:minLines="1"
+        android:textColor="@color/colorBlack"
+        android:textSize="16sp"/>
+</LinearLayout>
